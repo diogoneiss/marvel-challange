@@ -16,6 +16,6 @@ struct HomeViewCell: View {
 struct HomeViewCell_Previews: PreviewProvider {
     static var previews: some View {
         HomeViewCell()
-            .previewDevice(.sizeThatFits)
+            .previewLayout(.sizeThatFits)
     }
 }
